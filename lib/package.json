@@ -1,0 +1,19 @@
+{
+  "name": "html-newsletter",
+  "version": "0.0.1",
+  "description": "HTML newsletter automation",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-init": "^0.3.2",
+    "grunt-premailer": "^0.2.13",
+    "grunt-processhtml": "^0.3.7",
+    "grunt-uncss": "^0.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristovao Verstraeten",
+  "license": "Not Yet Determined"
+}
