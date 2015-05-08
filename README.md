@@ -13,9 +13,9 @@ A very rudimentary Vagrant virtual machine to automate (responsive) HTML emails.
 * Setup your SMPT credentials and other settings in 'index.php', additionally review Grunt modules settings in 'Gruntfile.js'
 * run command `vagrant up --provision`
 * watch the Matrix happen or do something else, it will take quite a long time to set up (roughly 30min. on my laptop)
-* Once all set up, to run the grunt commands to inline your HTML and CSS as well as sending test mails with PHPMailer you will currently have to `vagrant ssh` into the box -you'll be taken straight to the working dir. The main commands are: 
- - `grunt email` will uncss -> replace the old stylesheets with the uncss version -> inline the styles in your HTML markup. Every files build will be placed in the 'Dist' folder
- - after inlining your template run `php -f index.php` to send a test email (providing you have configured the 'index.php' file before provisioning.
+* Once all set up, to run the following commands to inline your HTML and CSS as well as sending test mails with PHPMailer you will currently have to `vagrant ssh` into the box -you'll be taken straight to the working dir. The main commands are: 
+ - `vagrant ssh -c "grunt email"` will uncss -> replace the old stylesheets with the uncss version -> inline the styles in your HTML markup. Every files build will be placed in the 'Dist' folder
+ - after inlining your template run `vagrant ssh -c "php -f index.php"` to send a test email (providing you have configured the 'index.php' file before provisioning. cli alt: `vagrant ssh -c "vim index.php"` )
 
  **should you delete the vm and if you changed some confs back them up so to not rewrite them if you reinstall**
 
@@ -23,7 +23,8 @@ A very rudimentary Vagrant virtual machine to automate (responsive) HTML emails.
  
  
 ### Version
-0.0.1
+0.0.3      added getink.bat, update readme with vagrant ssh CLI commands
+0.0.1      Initial
 
 ### Tech
 
