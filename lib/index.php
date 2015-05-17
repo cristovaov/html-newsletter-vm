@@ -55,7 +55,7 @@ $mail->AddAddress('whoto@example.com', 'First Last');                           
 // $mail->AddAddress('whoto@example.com', 'First Last');
 // $mail->AddAddress('whoto@example.com', 'First Last');
 
-$mail->msgHTML(file_get_contents('dist/email-inlined.html'), dirname(__FILE__));    // import the HTML email to be sent. Shouldn't be changed
+$mail->msgHTML(file_get_contents('email/inlined/email.html'), dirname(__FILE__));    // import the HTML email to be sent. Shouldn't be changed
 
 //$mail->AddAttachment("/path/to/file.zip");                                   // adds a zip file as attachment
 //$mail->AddAttachment("/path/to/image.jpg", "new.jpg");                       // adds an image as attachment
