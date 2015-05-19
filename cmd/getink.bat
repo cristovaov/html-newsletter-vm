@@ -1,4 +1,4 @@
-ECHO OFF
+@echo off
 curl -O -L https://raw.githubusercontent.com/zurb/ink/master/css/ink.css
-curl -O -L https://raw.githubusercontent.com/zurb/ink/master/templates/boilerplate.html
-ECHO "done."
+curl -O -L https://raw.githubusercontent.com/cristovaov/html-newsletter-vm/develop/email/boilerplate.html
+echo "done."
