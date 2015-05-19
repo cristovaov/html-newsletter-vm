@@ -23,7 +23,10 @@ A very rudimentary Vagrant virtual machine to automate (responsive) HTML emails.
  
  
 ### Version
+0.1        project revision: repo structure, project dir structure and template cleanups  
+ 
 0.0.3      added getink.bat, update readme with vagrant ssh CLI commands
+
 0.0.1      Initial
 
 ### Tech
@@ -46,7 +49,8 @@ The insides of the Vagrant VM uses a number of open source projects to work prop
  
 License 
 ----
-**NYD : Not Yet Determined as in: 
+Copyright 2015 Cristovao Verstraeten
+*NYD : Not Yet Determined as in: 
 I invented nothing... Contributing to the OSS this automation vm relies on is strongly encouraged, obviously improvements in any way on this repo itself is welcomed too~ )**
 
 
