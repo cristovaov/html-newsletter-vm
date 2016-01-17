@@ -1,6 +1,6 @@
 {
   "name": "html-newsletter",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "HTML newsletter automation",
   "main": "index.js",
   "dependencies": {
