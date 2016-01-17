@@ -1,3 +1,6 @@
 personal-conf/
 email/inlined/
+email/images/
 email/tidy/
+cmd/boilerplate.html
+cmd/ink.css
